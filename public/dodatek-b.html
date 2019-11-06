@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="icon" href="./images/touch-icons/apple-touch-icon-iphone-60x60.png" type="image/png">
+    <link rel="apple-touch-icon" href="./images/touch-icons/apple-touch-icon-iphone-60x60.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="./images/touch-icons/apple-touch-icon-ipad-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="./images/touch-icons/apple-touch-icon-iphone-retina-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="./images/touch-icons/apple-touch-icon-ipad-retina-152x152.png">
+		<meta name="apple-mobile-web-app-title" content="Free Culture">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <title>Dodatek B: Ukázkový plán posuzování kvality</title>
+    
+    
+		
+		
+		<link rel="stylesheet" href="./style/style.min.css" media="screen" integrity="$styleHash">
+  </head>
+  <body >
+    <div class="content">
+      
+  <h1>Dodatek B: Ukázkový plán posuzování kvality</h1>
+   <p>V duchu rady <em>Chtějte důkazy místo slibů</em> nabízíme ukázkový plán posuzování kvality (QASP), který byste měli zařadit do svých agilních poptávkových dokumentů.</p>
+
+<table>
+<thead>
+<tr>
+<th><strong>Oblast</strong></th>
+<th><strong>Výkonnostní ukazatele</strong></th>
+<th><strong>Přijatelná úroveň kvality</strong></th>
+<th><strong>Způsob kontroly</strong></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Testování</td>
+<td>Kód odevzdaný na základě objednávky musí být z větší části pokrytý automatickými testy. Zdrojový kód je verzovaný ve veřejném repository a zůstává ve vlastnictví státu.</td>
+<td>Aspoň 90% pokrytí testy</td>
+<td>Kombinace ruční kontroly a automatických testů</td>
+</tr>
+
+<tr>
+<td>Vývojářské standardy</td>
+<td><a href="https://frontend.18f.gov/">GSA 18F Front-End Guide</a></td>
+<td>Žádná varování od linteru, žádná varování od překladače</td>
+<td>Kombinace ruční kontroly a automatických testů</td>
+</tr>
+
+<tr>
+<td>Přístupnost</td>
+<td>Web Content Accessibility Guidelines 2.1 AA</td>
+<td>Žádné chyby nahlášené automatickým skenerem, žádné chyby nalezené ruční kontrolou</td>
+<td><a href="https://github.com/pa11y/pa11y">Pa11y</a></td>
+</tr>
+
+<tr>
+<td>Nasazení</td>
+<td>Kód se musí úspěšně přeložit a nasadit do testovacího prostředí</td>
+<td>Úspěšný build jedním příkazem</td>
+<td>Kombinace ruční kontroly a automatických testů</td>
+</tr>
+
+<tr>
+<td>Dokumentace</td>
+<td>Existuje seznam všech závislostí a jejich licencí. Hlavní funkce zdrojového kódu a softwaru jsou dokumentované. Zdrojový kód je komentovaný způsobem, který umožňuje automatické generování dokumentace (například <a href="http://usejsdoc.org/">JSDoc</a>). Existuje systémový diagram celého systému.</td>
+<td>Kombinace ruční kontroly a automatických testů, pokud jsou k dispozici</td>
+<td>Ruční kontrola</td>
+</tr>
+
+<tr>
+<td>Bezpečnost</td>
+<td><a href="https://www.owasp.org/images/6/67/OWASPApplicationSecurityVerificationStandard3.0.pdf">OWASP Application Security Verification Standard 3.0</a></td>
+<td>V kódu nesmí být žádné statické nebo dynamické bezpečnostní problémy střední a vyšší úrovně</td>
+<td>Čisté výstupy ze statického SaaS testu (například <a href="https://docs.npmjs.com/cli/audit">npm audit</a>) a <a href="https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project">OWASP ZAP</a>, falešně pozitivní výsledky jsou uvedené v dokumentaci</td>
+</tr>
+
+<tr>
+<td>Analýza uživatelských požadavků</td>
+<td>Analýza požadavků a testování použitelnosti musí probíhat pravidelně během celého vývoje, nejen na jeho začátku.</td>
+<td>Výstupy z testování použitelnosti a dalších analýz jsou k dispozici na konci každého vhodného sprintu, podle plánu dodavatele</td>
+<td>Ruční kontrola</td>
+</tr>
+</tbody>
+</table>
+
+
+    </div>  
+
+
+		
+		
+    <script type="text/javascript" src="./scripts/bundle.js" integrity="sha256-oEJCURKuz/u&#43;a8ME2HknsqBXwBZ9FIYHSWf7rtQ76IY="></script>
+  </body>
+</html>

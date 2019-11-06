@@ -1,0 +1,628 @@
+{
+  "title": "Snižování rizika technologických projektů",
+  "author": "Robin Carnahan, Randy Hart, Waldo Jaquith",
+  "contributor": [
+    {
+      "text": "Robin Carnahan",
+      "role": "Author"
+    },
+    {
+      "text": "Randy Hart",
+      "role": "Author"
+    },
+    {
+      "text": "Waldo Jaquith",
+      "role": "Author"
+    },
+    {
+      "text": "Tomáš Znamenáček",
+      "role": "Translator"
+    }
+  ],
+  "subtitle": "Příručka rozpočtování a řízení pro státní IT projekty",
+  "published": 2019,
+  "keywords": [
+    "riziko",
+    "rozpočtování",
+    "řízení",
+    "státní",
+    "IT projekty"
+  ],
+  "slug": "jaquith-snizovani-rizika-technologickych-projektu-2019-f4a51b",
+  "revision": "b2032b8",
+  "generatedAt": {
+    "date": "Wed Nov 06 2019 23:59:51 GMT+0100 (Central European Standard Time)",
+    "unix": 1573081191548
+  },
+  "documents": [
+    {
+      "title": "Úvod",
+      "file": "01-uvod.html",
+      "words": 424,
+      "chars": 2976,
+      "isChapter": true,
+      "order": 0,
+      "prev": null,
+      "next": "02-zakladni-principy.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "Úvod",
+          "id": "chunk1",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "Základní principy návrhu moderního softwaru",
+      "file": "02-zakladni-principy.html",
+      "words": 2212,
+      "chars": 15565,
+      "isChapter": true,
+      "order": 1,
+      "prev": "01-uvod.html",
+      "next": "03-rady.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "Základní principy návrhu moderního softwaru",
+          "id": "chunk1",
+          "children": [
+            {
+              "index": 1,
+              "level": 2,
+              "name": "Design zaměřený na uživatele",
+              "id": "design-zaměřený-na-uživatele",
+              "children": []
+            },
+            {
+              "index": 2,
+              "level": 2,
+              "name": "Agilní vývoj softwaru",
+              "id": "agilní-vývoj-softwaru",
+              "children": []
+            },
+            {
+              "index": 3,
+              "level": 2,
+              "name": "Vlastnictví produktu",
+              "id": "vlastnictví-produktu",
+              "children": []
+            },
+            {
+              "index": 4,
+              "level": 2,
+              "name": "DevOps",
+              "id": "devops",
+              "children": []
+            },
+            {
+              "index": 5,
+              "level": 2,
+              "name": "Modulární architektura",
+              "id": "modulární-architektura",
+              "children": []
+            },
+            {
+              "index": 6,
+              "level": 2,
+              "name": "Modulární zakázky",
+              "id": "modulární-zakázky",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Rady pro rozpočtování a řízení technických projektů",
+      "file": "03-rady.html",
+      "words": 5052,
+      "chars": 35232,
+      "isChapter": true,
+      "order": 2,
+      "prev": "02-zakladni-principy.html",
+      "next": "dodatek-a.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "Rady pro rozpočtování a řízení technických projektů",
+          "id": "chunk1",
+          "children": [
+            {
+              "index": 1,
+              "level": 2,
+              "name": "Změňte svůj pohled na rizika",
+              "id": "změňte-svůj-pohled-na-rizika",
+              "children": [
+                {
+                  "index": 2,
+                  "level": 3,
+                  "name": "Kontrolní seznam",
+                  "id": "kontrolní-seznam",
+                  "children": []
+                },
+                {
+                  "index": 3,
+                  "level": 3,
+                  "name": "Klíčové otázky",
+                  "id": "klíčové-otázky",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "level": 2,
+              "name": "Nakupujte služby, ne software",
+              "id": "nakupujte-služby-ne-software",
+              "children": [
+                {
+                  "index": 5,
+                  "level": 3,
+                  "name": "Kontrolní seznam",
+                  "id": "kontrolní-seznam-1",
+                  "children": []
+                },
+                {
+                  "index": 6,
+                  "level": 3,
+                  "name": "Klíčové otázky",
+                  "id": "klíčové-otázky-1",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 7,
+              "level": 2,
+              "name": "Pozor na past komerčního softwaru na míru",
+              "id": "pozor-na-past-komerčního-softwaru-na-míru",
+              "children": [
+                {
+                  "index": 8,
+                  "level": 3,
+                  "name": "Kontrolní seznam",
+                  "id": "kontrolní-seznam-2",
+                  "children": []
+                },
+                {
+                  "index": 9,
+                  "level": 3,
+                  "name": "Klíčové otázky",
+                  "id": "klíčové-otázky-2",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 10,
+              "level": 2,
+              "name": "Chtějte důkazy místo slibů",
+              "id": "chtějte-důkazy-místo-slibů",
+              "children": [
+                {
+                  "index": 11,
+                  "level": 3,
+                  "name": "Kontrolní seznam",
+                  "id": "kontrolní-seznam-3",
+                  "children": []
+                },
+                {
+                  "index": 12,
+                  "level": 3,
+                  "name": "Klíčové otázky",
+                  "id": "klíčové-otázky-3",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 13,
+              "level": 2,
+              "name": "Investujte do vlastních lidí",
+              "id": "investujte-do-vlastních-lidí",
+              "children": [
+                {
+                  "index": 14,
+                  "level": 3,
+                  "name": "Kontrolní seznam",
+                  "id": "kontrolní-seznam-4",
+                  "children": []
+                },
+                {
+                  "index": 15,
+                  "level": 3,
+                  "name": "Klíčové otázky",
+                  "id": "klíčové-otázky-4",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 16,
+              "level": 2,
+              "name": "Minimalizujte cenu změn",
+              "id": "minimalizujte-cenu-změn",
+              "children": [
+                {
+                  "index": 17,
+                  "level": 3,
+                  "name": "Kontrolní seznam",
+                  "id": "kontrolní-seznam-5",
+                  "children": []
+                },
+                {
+                  "index": 18,
+                  "level": 3,
+                  "name": "Klíčové otázky",
+                  "id": "klíčové-otázky-5",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 19,
+              "level": 2,
+              "name": "Měřte pokrok na iterace, ne na milníky",
+              "id": "měřte-pokrok-na-iterace-ne-na-milníky",
+              "children": [
+                {
+                  "index": 20,
+                  "level": 3,
+                  "name": "Kontrolní seznam",
+                  "id": "kontrolní-seznam-6",
+                  "children": []
+                },
+                {
+                  "index": 21,
+                  "level": 3,
+                  "name": "Klíčové otázky",
+                  "id": "klíčové-otázky-6",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 22,
+              "level": 2,
+              "name": "Omezte celkové výdaje",
+              "id": "omezte-celkové-výdaje",
+              "children": [
+                {
+                  "index": 23,
+                  "level": 3,
+                  "name": "Kontrolní seznam",
+                  "id": "kontrolní-seznam-7",
+                  "children": []
+                },
+                {
+                  "index": 24,
+                  "level": 3,
+                  "name": "Klíčové otázky",
+                  "id": "klíčové-otázky-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 25,
+              "level": 2,
+              "name": "Omezte velikost zakázek",
+              "id": "omezte-velikost-zakázek",
+              "children": [
+                {
+                  "index": 26,
+                  "level": 3,
+                  "name": "Kontrolní seznam",
+                  "id": "kontrolní-seznam-8",
+                  "children": []
+                },
+                {
+                  "index": 27,
+                  "level": 3,
+                  "name": "Klíčové otázky",
+                  "id": "klíčové-otázky-8",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 28,
+              "level": 2,
+              "name": "Plaťte za ekosystém, ne za monolity",
+              "id": "plaťte-za-ekosystém-ne-za-monolity",
+              "children": [
+                {
+                  "index": 29,
+                  "level": 3,
+                  "name": "Kontrolní seznam",
+                  "id": "kontrolní-seznam-9",
+                  "children": []
+                },
+                {
+                  "index": 30,
+                  "level": 3,
+                  "name": "Klíčové otázky",
+                  "id": "klíčové-otázky-9",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 31,
+              "level": 2,
+              "name": "Rozšiřte okruh svých dodavatelů",
+              "id": "rozšiřte-okruh-svých-dodavatelů",
+              "children": [
+                {
+                  "index": 32,
+                  "level": 3,
+                  "name": "Kontrolní seznam",
+                  "id": "kontrolní-seznam-10",
+                  "children": []
+                },
+                {
+                  "index": 33,
+                  "level": 3,
+                  "name": "Klíčové otázky",
+                  "id": "klíčové-otázky-10",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 34,
+              "level": 2,
+              "name": "Podělte se o svůj software s ostatními",
+              "id": "podělte-se-o-svůj-software-s-ostatními",
+              "children": [
+                {
+                  "index": 35,
+                  "level": 3,
+                  "name": "Kontrolní seznam",
+                  "id": "kontrolní-seznam-11",
+                  "children": []
+                },
+                {
+                  "index": 36,
+                  "level": 3,
+                  "name": "Klíčové otázky",
+                  "id": "klíčové-otázky-11",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 37,
+              "level": 2,
+              "name": "Berte software jako provozní výdaj",
+              "id": "berte-software-jako-provozní-výdaj",
+              "children": [
+                {
+                  "index": 38,
+                  "level": 3,
+                  "name": "Kontrolní seznam",
+                  "id": "kontrolní-seznam-12",
+                  "children": []
+                },
+                {
+                  "index": 39,
+                  "level": 3,
+                  "name": "Klíčové otázky",
+                  "id": "klíčové-otázky-12",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "index": 40,
+              "level": 2,
+              "name": "Ptejte se dodavatele na technické věci",
+              "id": "ptejte-se-dodavatele-na-technické-věci",
+              "children": [
+                {
+                  "index": 41,
+                  "level": 3,
+                  "name": "Kontrolní seznam",
+                  "id": "kontrolní-seznam-13",
+                  "children": []
+                },
+                {
+                  "index": 42,
+                  "level": 3,
+                  "name": "Klíčové otázky",
+                  "id": "klíčové-otázky-13",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Dodatek A: Na co se ptát",
+      "file": "dodatek-a.html",
+      "words": 652,
+      "chars": 4607,
+      "isChapter": true,
+      "order": 3,
+      "prev": "03-rady.html",
+      "next": "dodatek-b.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "Dodatek A: Na co se ptát",
+          "id": "chunk1",
+          "children": [
+            {
+              "index": 1,
+              "level": 2,
+              "name": "Jaké jsou cíle projektu? Jaké výsledky jsou prioritní?",
+              "id": "jaké-jsou-cíle-projektu-jaké-výsledky-jsou-prioritní",
+              "children": []
+            },
+            {
+              "index": 2,
+              "level": 2,
+              "name": "Jaké uživatelské potřeby projekt naplňuje?",
+              "id": "jaké-uživatelské-potřeby-projekt-naplňuje",
+              "children": []
+            },
+            {
+              "index": 3,
+              "level": 2,
+              "name": "Pokud vybraný dodavatel nesplní představy, jak obtížné bude smlouvu ukončit? Jak dlouho bude trvat jeho nahrazení jiným dodavatelem? Kolik to asi bude stát?",
+              "id": "pokud-vybraný-dodavatel-nesplní-představy-jak-obtížné-bude-smlouvu-ukončit-jak-dlouho-bude-trvat-jeho-nahrazení-jiným-dodavatelem-kolik-to-asi-bude-stát",
+              "children": []
+            },
+            {
+              "index": 4,
+              "level": 2,
+              "name": "Bude poptávkový dokument obsahovat podrobnou specifikaci funkcí systému?",
+              "id": "bude-poptávkový-dokument-obsahovat-podrobnou-specifikaci-funkcí-systému",
+              "children": []
+            },
+            {
+              "index": 5,
+              "level": 2,
+              "name": "Jak dlouhý bude poptávkový dokument?",
+              "id": "jak-dlouhý-bude-poptávkový-dokument",
+              "children": []
+            },
+            {
+              "index": 6,
+              "level": 2,
+              "name": "Předpokládáte pevnou cenu za celou zakázku, nebo průběžné proplácení času a nákladů?",
+              "id": "předpokládáte-pevnou-cenu-za-celou-zakázku-nebo-průběžné-proplácení-času-a-nákladů",
+              "children": []
+            },
+            {
+              "index": 7,
+              "level": 2,
+              "name": "Jakou hodnotu získají uživatelé během prvního půl roku?",
+              "id": "jakou-hodnotu-získají-uživatelé-během-prvního-půl-roku",
+              "children": []
+            },
+            {
+              "index": 8,
+              "level": 2,
+              "name": "Kdo bude vlastníkem produktu?",
+              "id": "kdo-bude-vlastníkem-produktu",
+              "children": []
+            },
+            {
+              "index": 9,
+              "level": 2,
+              "name": "Jakou používáte metodiku vývoje?",
+              "id": "jakou-používáte-metodiku-vývoje",
+              "children": []
+            },
+            {
+              "index": 10,
+              "level": 2,
+              "name": "Kdo z týmu, který zakázku připravuje, má zkušenosti s vývojem softwaru?",
+              "id": "kdo-z-týmu-který-zakázku-připravuje-má-zkušenosti-s-vývojem-softwaru",
+              "children": []
+            },
+            {
+              "index": 11,
+              "level": 2,
+              "name": "Jak často se bude systém nasazovat do produkce?",
+              "id": "jak-často-se-bude-systém-nasazovat-do-produkce",
+              "children": []
+            },
+            {
+              "index": 12,
+              "level": 2,
+              "name": "Bude projekt obsahovat automatické testy? Integrační testy? Automatické nasazení? Bezpečnostní testy?",
+              "id": "bude-projekt-obsahovat-automatické-testy-integrační-testy-automatické-nasazení-bezpečnostní-testy",
+              "children": []
+            },
+            {
+              "index": 13,
+              "level": 2,
+              "name": "Kolik budou stát změny projektu?",
+              "id": "kolik-budou-stát-změny-projektu",
+              "children": []
+            },
+            {
+              "index": 14,
+              "level": 2,
+              "name": "Jak zjistíte, jestli projekt pokračuje dobře a jestli dodavatelé pracují, jak mají?",
+              "id": "jak-zjistíte-jestli-projekt-pokračuje-dobře-a-jestli-dodavatelé-pracují-jak-mají",
+              "children": []
+            },
+            {
+              "index": 15,
+              "level": 2,
+              "name": "Komu software patří?",
+              "id": "komu-software-patří",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Dodatek B: Ukázkový plán posuzování kvality",
+      "file": "dodatek-b.html",
+      "words": 28,
+      "chars": 199,
+      "isChapter": true,
+      "order": 4,
+      "prev": "dodatek-a.html",
+      "next": null,
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "Dodatek B: Ukázkový plán posuzování kvality",
+          "id": "chunk1",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "Snižování rizika technologických projektů",
+      "file": "index.html",
+      "words": 55,
+      "chars": 375,
+      "isChapter": false,
+      "order": null,
+      "next": "01-uvod.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "Snižování rizika technologických projektů",
+          "id": "snižování-rizika-technologických-projektů",
+          "children": [
+            {
+              "index": 1,
+              "level": 2,
+              "name": "Table of contents",
+              "id": "table-of-contents",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "all": {
+      "words": 8423,
+      "chars": 58954
+    },
+    "chapters": {
+      "words": 8368,
+      "chars": 58579
+    }
+  }
+}
