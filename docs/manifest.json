@@ -29,10 +29,10 @@
     "IT projekty"
   ],
   "slug": "jaquith-snizovani-rizika-technologickych-projektu-2019-f4a51b",
-  "revision": "b2032b8",
+  "revision": "919f2f8",
   "generatedAt": {
-    "date": "Wed Nov 06 2019 23:59:51 GMT+0100 (Central European Standard Time)",
-    "unix": 1573081191548
+    "date": "Sat Nov 16 2019 16:12:44 GMT+0100 (Central European Standard Time)",
+    "unix": 1573917164839
   },
   "documents": [
     {
@@ -73,8 +73,8 @@
             {
               "index": 1,
               "level": 2,
-              "name": "Design zaměřený na uživatele",
-              "id": "design-zaměřený-na-uživatele",
+              "name": "Design zaměřený na uživatele",
+              "id": "design-zaměřený-na-nbsp-uživatele",
               "children": []
             },
             {
@@ -119,8 +119,8 @@
     {
       "title": "Rady pro rozpočtování a řízení technických projektů",
       "file": "03-rady.html",
-      "words": 5052,
-      "chars": 35232,
+      "words": 5152,
+      "chars": 35948,
       "isChapter": true,
       "order": 2,
       "prev": "02-zakladni-principy.html",
@@ -135,8 +135,8 @@
             {
               "index": 1,
               "level": 2,
-              "name": "Změňte svůj pohled na rizika",
-              "id": "změňte-svůj-pohled-na-rizika",
+              "name": "Změňte svůj pohled na rizika",
+              "id": "změňte-svůj-pohled-na-nbsp-rizika",
               "children": [
                 {
                   "index": 2,
@@ -157,8 +157,8 @@
             {
               "index": 4,
               "level": 2,
-              "name": "Nakupujte služby, ne software",
-              "id": "nakupujte-služby-ne-software",
+              "name": "Nakupujte služby, ne software",
+              "id": "nakupujte-služby-ne-nbsp-software",
               "children": [
                 {
                   "index": 5,
@@ -179,8 +179,8 @@
             {
               "index": 7,
               "level": 2,
-              "name": "Pozor na past komerčního softwaru na míru",
-              "id": "pozor-na-past-komerčního-softwaru-na-míru",
+              "name": "Pozor na past komerčního softwaru na míru",
+              "id": "pozor-na-nbsp-past-komerčního-softwaru-na-nbsp-míru",
               "children": [
                 {
                   "index": 8,
@@ -223,8 +223,8 @@
             {
               "index": 13,
               "level": 2,
-              "name": "Investujte do vlastních lidí",
-              "id": "investujte-do-vlastních-lidí",
+              "name": "Investujte do vlastních lidí",
+              "id": "investujte-do-nbsp-vlastních-lidí",
               "children": [
                 {
                   "index": 14,
@@ -267,8 +267,8 @@
             {
               "index": 19,
               "level": 2,
-              "name": "Měřte pokrok na iterace, ne na milníky",
-              "id": "měřte-pokrok-na-iterace-ne-na-milníky",
+              "name": "Měřte pokrok na iterace, ne na milníky",
+              "id": "měřte-pokrok-na-nbsp-iterace-ne-nbsp-na-nbsp-milníky",
               "children": [
                 {
                   "index": 20,
@@ -333,8 +333,8 @@
             {
               "index": 28,
               "level": 2,
-              "name": "Plaťte za ekosystém, ne za monolity",
-              "id": "plaťte-za-ekosystém-ne-za-monolity",
+              "name": "Plaťte za ekosystém, ne za monolity",
+              "id": "plaťte-za-nbsp-ekosystém-ne-nbsp-za-nbsp-monolity",
               "children": [
                 {
                   "index": 29,
@@ -377,8 +377,8 @@
             {
               "index": 34,
               "level": 2,
-              "name": "Podělte se o svůj software s ostatními",
-              "id": "podělte-se-o-svůj-software-s-ostatními",
+              "name": "Podělte se o svůj software s ostatními",
+              "id": "podělte-se-nbsp-o-nbsp-svůj-software-s-nbsp-ostatními",
               "children": [
                 {
                   "index": 35,
@@ -421,8 +421,8 @@
             {
               "index": 40,
               "level": 2,
-              "name": "Ptejte se dodavatele na technické věci",
-              "id": "ptejte-se-dodavatele-na-technické-věci",
+              "name": "Ptejte se dodavatele na technické věci",
+              "id": "ptejte-se-nbsp-dodavatele-na-nbsp-technické-věci",
               "children": [
                 {
                   "index": 41,
@@ -477,8 +477,8 @@
             {
               "index": 3,
               "level": 2,
-              "name": "Pokud vybraný dodavatel nesplní představy, jak obtížné bude smlouvu ukončit? Jak dlouho bude trvat jeho nahrazení jiným dodavatelem? Kolik to asi bude stát?",
-              "id": "pokud-vybraný-dodavatel-nesplní-představy-jak-obtížné-bude-smlouvu-ukončit-jak-dlouho-bude-trvat-jeho-nahrazení-jiným-dodavatelem-kolik-to-asi-bude-stát",
+              "name": "Pokud vybraný dodavatel nesplní představy, jak obtížné bude smlouvu ukončit? Jak dlouho bude trvat jeho nahrazení jiným dodavatelem? Kolik to asi bude stát?",
+              "id": "pokud-vybraný-dodavatel-nesplní-představy-jak-obtížné-bude-smlouvu-ukončit-jak-dlouho-bude-trvat-jeho-nahrazení-jiným-dodavatelem-kolik-to-nbsp-asi-bude-stát",
               "children": []
             },
             {
@@ -498,8 +498,8 @@
             {
               "index": 6,
               "level": 2,
-              "name": "Předpokládáte pevnou cenu za celou zakázku, nebo průběžné proplácení času a nákladů?",
-              "id": "předpokládáte-pevnou-cenu-za-celou-zakázku-nebo-průběžné-proplácení-času-a-nákladů",
+              "name": "Předpokládáte pevnou cenu za celou zakázku, nebo průběžné proplácení času a nákladů?",
+              "id": "předpokládáte-pevnou-cenu-za-nbsp-celou-zakázku-nebo-průběžné-proplácení-času-a-nbsp-nákladů",
               "children": []
             },
             {
@@ -526,15 +526,15 @@
             {
               "index": 10,
               "level": 2,
-              "name": "Kdo z týmu, který zakázku připravuje, má zkušenosti s vývojem softwaru?",
-              "id": "kdo-z-týmu-který-zakázku-připravuje-má-zkušenosti-s-vývojem-softwaru",
+              "name": "Kdo z týmu, který zakázku připravuje, má zkušenosti s vývojem softwaru?",
+              "id": "kdo-z-nbsp-týmu-který-zakázku-připravuje-má-nbsp-zkušenosti-s-nbsp-vývojem-softwaru",
               "children": []
             },
             {
               "index": 11,
               "level": 2,
-              "name": "Jak často se bude systém nasazovat do produkce?",
-              "id": "jak-často-se-bude-systém-nasazovat-do-produkce",
+              "name": "Jak často se bude systém nasazovat do produkce?",
+              "id": "jak-často-se-nbsp-bude-systém-nasazovat-do-nbsp-produkce",
               "children": []
             },
             {
@@ -554,8 +554,8 @@
             {
               "index": 14,
               "level": 2,
-              "name": "Jak zjistíte, jestli projekt pokračuje dobře a jestli dodavatelé pracují, jak mají?",
-              "id": "jak-zjistíte-jestli-projekt-pokračuje-dobře-a-jestli-dodavatelé-pracují-jak-mají",
+              "name": "Jak zjistíte, jestli projekt pokračuje dobře a jestli dodavatelé pracují, jak mají?",
+              "id": "jak-zjistíte-jestli-projekt-pokračuje-dobře-a-nbsp-jestli-dodavatelé-pracují-jak-mají",
               "children": []
             },
             {
@@ -572,8 +572,8 @@
     {
       "title": "Dodatek B: Ukázkový plán posuzování kvality",
       "file": "dodatek-b.html",
-      "words": 28,
-      "chars": 199,
+      "words": 6,
+      "chars": 43,
       "isChapter": true,
       "order": 4,
       "prev": "dodatek-a.html",
@@ -617,12 +617,12 @@
   ],
   "totals": {
     "all": {
-      "words": 8423,
-      "chars": 58954
+      "words": 8501,
+      "chars": 59514
     },
     "chapters": {
-      "words": 8368,
-      "chars": 58579
+      "words": 8446,
+      "chars": 59139
     }
   }
 }

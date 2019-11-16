@@ -32,7 +32,7 @@ Váš poptávkový dokument neboli RFP (_Request for Proposal_) by měl popisova
 
 Poptávkový dokument by měl popisovat spíše cíle projektu než výčet prací nebo podrobných vlastností produktu. Tím se vyhnete tradičním doobjednávkám změn u dodavatele, protože rozsah prací není dán předem a tým pracuje zkrátka na tom, co mu řeknete. Pokud se váš dodavatel pyšní „agilním“ přístupem, ale změny má tendenci řešit pomocí dodatečných objednávek, mělo by se vám v hlavě rozsvítit červené světlo.
 
-Abyste měli jistotu, že dodavatel naplní požadované technické specifikace, měl by váš poptávkový dokument obsahovat plán posuzování kvality (QASP, _Quality Assessment Surveillance Plan_) vhodný pro agilní vývoj. Podle tohoto plánu se na konci každého sprintu posoudí, jestli jsou odevzdané výstupy otestované, zabezpečené, přístupné, dokumentované a správně nasazené.[^qasp] (Ukázkový plán posuzování kvality najdete v dodatku B.) Kvalitativní požadavky může naplnit pouze skutečný, nasazený a fungující software, nikoliv sebelepší popis toho, co bude software dělat někdy v budoucnosti.
+Abyste měli jistotu, že dodavatel naplní požadované technické specifikace, měl by váš poptávkový dokument obsahovat plán posuzování kvality (QASP, _Quality Assessment Surveillance Plan_) vhodný pro agilní vývoj. Podle tohoto plánu se na konci každého sprintu posoudí, jestli jsou odevzdané výstupy otestované, zabezpečené, přístupné, dokumentované a správně nasazené.[^qasp] \(Ukázkový plán posuzování kvality najdete v dodatku B.) Kvalitativní požadavky může naplnit pouze skutečný, nasazený a fungující software, nikoliv sebelepší popis toho, co bude software dělat někdy v budoucnosti.
 
 Historicky existuje velký tlak na to, aby zakázky probíhaly za pevnou cenu, protože to zdánlivě snižuje jejich rizika. Pokud ale můžete průběžně vyhodnocovat kvalitu skutečně dodaného softwaru, pak vám větší flexibilitu dávají průběžné platby za čas a náklady (se stropem pro celkové výdaje). Tento režim placení vám navíc dává jednodušší cestu ven pro případ, že dojde k zásadní změně zadání projektu, nebo když nejste spokojeni s kvalitou dodaného softwaru. Pokud práce dodavatele z libovolného důvodu nenaplňuje vaše představy, prostě mu přestanete zadávat další úkoly, kontrakt tím efektivně vzato zanikne a můžete zkusit jiného dodavatele.
 
@@ -178,7 +178,7 @@ Nepoměřujte pokroky projektu story pointy, počtem řádků kódu, člověkoho
 
 ## Omezte celkové výdaje
 
-Čím je projekt dražší, tím menší má šanci uspět. Obecně řečeno byste za celý projekt neměli utratit více než 10 milionů dolarů.[^standish1] (Vzácnými výjimkami z tohoto pravidla jsou extrémně složité projekty jako například pojištění nezaměstnanosti nebo systémy týkající se programu Medicaid.)
+Čím je projekt dražší, tím menší má šanci uspět. Obecně řečeno byste za celý projekt neměli utratit více než 10 milionů dolarů.[^standish1] \(Vzácnými výjimkami z tohoto pravidla jsou extrémně složité projekty jako například pojištění nezaměstnanosti nebo systémy týkající se programu Medicaid.)
 
 ### Kontrolní seznam
 

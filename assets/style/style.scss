@@ -1,4 +1,4 @@
-@import './../../node_modules/nb-mapper/node_modules/nb-base/src/scss/style.scss';
+@import './../../node_modules/nb-base/src/scss/style.scss';
 
 $OpenSansPath: "./../open-sans-fontface/fonts";
 @import './open-sans/open-sans.scss';
@@ -8,9 +8,6 @@ body {
 	font-family: 'Open Sans';
 	font-size: 22px;
 	line-height: 1.4;
-	margin: 0;
-	padding: 0;
-	height: 100%;
 }
 
 .hero {
@@ -49,29 +46,6 @@ body {
 				font-size: 1.5rem;
 				margin-top: 0;
 			}
-		}
-	}
-}
-
-.footnote-ref {
-	vertical-align: top;
-	background: #ddd;
-	padding: 0.2rem 0.5rem;
-	border-radius: 0.5rem;
-	display: inline-block;
-	line-height: 1;
-
-	a {
-		font-weight: bold;
-		color: #aaa;
-		text-decoration: none;
-	}
-
-	&:hover {
-		background: #aaa;
-
-		a {
-			color: white;
 		}
 	}
 }

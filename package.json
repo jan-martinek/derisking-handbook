@@ -1,17 +1,16 @@
 {
-  "name": "free-culture",
+  "name": "derisking",
   "version": "0.0.1",
-  "description": "Next-book edition of Lawrence Lessig's Free Culture",
+  "description": "",
   "main": "",
   "scripts": {
     "build": "npm run build:js && hugo -d html && nb-mapper --src html --out book",
     "build:fromhtml": "nb-mapper --src html --out book",
     "build:ghdocs": "npm run build:js && hugo -d html && nb-mapper --src html --out docs",
     "build:js": "browserify assets/scripts/index.js -o assets/scripts/bundle.js",
+    "devbuild": "npm run build:js && rm book/scripts/bundle.js && cp assets/scripts/bundle.js book/scripts/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Lawrence Lessig",
-  "license": "CC-BY-NC-4.0",
   "devDependencies": {
     "nb-mapper": "^0.2.9"
   },
