@@ -1,5 +1,6 @@
 html/*
 book/*
+public/*
 resources/*
 node_modules/*
 /assets/scripts/nb-base.js
