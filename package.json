@@ -4,7 +4,7 @@
   "description": "",
   "main": "",
   "scripts": {
-    "build": "npm run build:js && hugo -d html && nb-mapper --src html --out book",
+    "build": "npm run build:js && hugo -d html && node filters.js && nb-mapper --src html --out book",
     "build:fromhtml": "nb-mapper --src html --out book",
     "build:ghdocs": "npm run build:js && hugo -d html && nb-mapper --src html --out docs",
     "build:js": "browserify assets/scripts/index.js -o assets/scripts/bundle.js",

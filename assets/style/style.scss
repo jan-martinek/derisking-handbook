@@ -3,173 +3,39 @@
 $OpenSansPath: "./../open-sans-fontface/fonts";
 @import './open-sans/open-sans.scss';
 
-html,
-body {
+:root {
 	font-family: 'Open Sans';
-	font-size: 22px;
-	line-height: 1.4;
 }
 
-.hero {
-	background: black;
-
-	.content {
-		padding: 2rem 1rem 1rem;
-	}
-
-	h1 {
-		display: block;
-		color: #ccc;
-		padding: 1em 0;
-		font-size: 3rem;
-		margin: 0;
-		font-weight: 600;
-		text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-		line-height: 1.2;
-	}
-
-	p {
-		color: white;
-	}
-
-	&.cover {
-		h1 {
-			padding: 0;
-			text-transform: uppercase;
-		}
-
-		p {
-			color: #ccc;
-			font-size: 2rem;
-
-			&.subtitle {
-				font-size: 1.5rem;
-				margin-top: 0;
-			}
-		}
-	}
+@media screen and (max-width: 699.9px) {
+	:root {
+		font-size: 90%;
+	};
 }
 
 .table-wrapper {
 	overflow-x: auto;
 }
 
-.content {
-	max-width: 32rem;
-	margin: 0 auto;
+table {
+	border-collapse: collapse;
 
-	q {
-		font-style: italic;
-	}
-
-	q:before {
-		content: "„";
-	}
-
-	q:after {
-		content: "“";
-	}
-
-	blockquote {
-		position: relative;
-		margin: 0.5rem;
-		padding: 0.5rem 0 0.5rem 3rem;
-
-		&:before {
-			position: absolute;
-			font-size: 6rem;
-			line-height: 1;
-			top: 0;
-			left: 0;
-			content: '“';
-		}
-
-		cite:before {
-			content: '— ';
-		}
-	}
-
-	dd {
-		margin-bottom: 1em;
-	}
-
-	table {
-		border-collapse: collapse;
-
-		td,
-		th {
-			border: 1px solid #aaa;
-			text-align: left;
-			padding: 0.5rem;
-		}
-	}
-
-	img {
-		display: block;
-		max-width: 100%;
-
-		&.fullwidth {
-			max-width: auto;
-			width: 100vw;
-			margin-left: unquote('calc((-100vw + 32rem) / 2)');
-		}
+	td,
+	th {
+		border: 1px solid #aaa;
+		text-align: left;
+		padding: 0.5rem;
 	}
 }
 
-@media screen and (max-width: 699px) {
-	html,
-	body {
-		font-size: 18px;
-	}
-
-	p,
-	li {
-		font-size: 18px;
-	}
-
-	th,
-	td {
-		font-size: 16px;
-		padding: 0.2rem;
-	}
-
-	.content {
-		blockquote {
-			padding-left: 0.5rem;
-
-			&:before {
-				font-size: 4rem;
-				left: -1rem;
-			}
-		}
-
-		img {
-			width: unquote('calc(100% + 2rem)');
-			margin-left: -1rem;
-			margin-right: -1rem;
-		}
-	}
-
-	.hero {
-		position: relative;
-
-		h1 {
-			font-size: 40px;
-		}
-
-		&.cover p {
-			font-size: 30px;
-		}
-	}
-
-	h2 {
-		font-size: 28px;
-	}
+q:before {
+	content: "„";
 }
 
+q:after {
+	content: "“";
+}
 
-.content img.nosize {
-	width: auto;
-	height: auto;
-	margin: 0;
+dd {
+	margin-bottom: 1em;
 }
