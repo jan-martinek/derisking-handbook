@@ -22,60 +22,62 @@
     <div class="content">
       <h1 class="chunk" data-nb-ref-number="1" id="chunk1" data-nb-words="6" data-nb-chars="43"><span class="idea" data-nb-ref-number="1" id="idea1" data-nb-words="6" data-nb-chars="43">Dodatek B: Ukázkový plán posuzování kvality</span></h1>
       V&nbsp;duchu rady <em>Chtějte důkazy místo slibů</em> nabízíme ukázkový plán posuzování kvality (QASP), který byste měli zařadit do&nbsp;svých agilních poptávkových dokumentů.<p class="chunk" data-nb-ref-number="2" id="chunk2" data-nb-words="0" data-nb-chars="0"></p>
-      <table>
-        <thead>
-          <tr>
-            <th><strong>Oblast</strong></th>
-            <th><strong>Výkonnostní ukazatele</strong></th>
-            <th><strong>Přijatelná úroveň kvality</strong></th>
-            <th><strong>Způsob kontroly</strong></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Testování</td>
-            <td>Kód odevzdaný na&nbsp;základě objednávky musí být z&nbsp;větší části pokrytý automatickými testy. Zdrojový kód je&nbsp;verzovaný ve&nbsp;veřejném repository a&nbsp;zůstává ve&nbsp;vlastnictví státu.</td>
-            <td>Aspoň 90% pokrytí testy</td>
-            <td>Kombinace ruční kontroly a&nbsp;automatických testů</td>
-          </tr>
-          <tr>
-            <td>Vývojářské standardy</td>
-            <td><a href="https://frontend.18f.gov/">GSA 18F Front-End Guide</a></td>
-            <td>Žádná varování od&nbsp;linteru, žádná varování od&nbsp;překladače</td>
-            <td>Kombinace ruční kontroly a&nbsp;automatických testů</td>
-          </tr>
-          <tr>
-            <td>Přístupnost</td>
-            <td>Web Content Accessibility Guidelines 2.1 AA&nbsp;</td>
-            <td>Žádné chyby nahlášené automatickým skenerem, žádné chyby nalezené ruční kontrolou</td>
-            <td><a href="https://github.com/pa11y/pa11y">Pa11y</a></td>
-          </tr>
-          <tr>
-            <td>Nasazení</td>
-            <td>Kód se&nbsp;musí úspěšně přeložit a&nbsp;nasadit do&nbsp;testovacího prostředí</td>
-            <td>Úspěšný build jedním příkazem</td>
-            <td>Kombinace ruční kontroly a&nbsp;automatických testů</td>
-          </tr>
-          <tr>
-            <td>Dokumentace</td>
-            <td>Existuje seznam všech závislostí a&nbsp;jejich licencí. Hlavní funkce zdrojového kódu a&nbsp;softwaru jsou dokumentované. Zdrojový kód je&nbsp;komentovaný způsobem, který umožňuje automatické generování dokumentace (například <a href="http://usejsdoc.org/">JSDoc</a>). Existuje systémový diagram celého systému.</td>
-            <td>Kombinace ruční kontroly a&nbsp;automatických testů, pokud jsou k&nbsp;dispozici</td>
-            <td>Ruční kontrola</td>
-          </tr>
-          <tr>
-            <td>Bezpečnost</td>
-            <td><a href="https://www.owasp.org/images/6/67/OWASPApplicationSecurityVerificationStandard3.0.pdf">OWASP Application Security Verification Standard 3.0</a></td>
-            <td>V&nbsp;kódu nesmí být žádné statické nebo dynamické bezpečnostní problémy střední a&nbsp;vyšší úrovně</td>
-            <td>Čisté výstupy ze&nbsp;statického SaaS testu (například <a href="https://docs.npmjs.com/cli/audit">npm audit</a>) a&nbsp;<a href="https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project">OWASP ZAP</a>, falešně pozitivní výsledky jsou uvedené v&nbsp;dokumentaci</td>
-          </tr>
-          <tr>
-            <td>Analýza uživatelských požadavků</td>
-            <td>Analýza požadavků a&nbsp;testování použitelnosti musí probíhat pravidelně během celého vývoje, nejen na&nbsp;jeho začátku.</td>
-            <td>Výstupy z&nbsp;testování použitelnosti a&nbsp;dalších analýz jsou k&nbsp;dispozici na&nbsp;konci každého vhodného sprintu, podle plánu dodavatele</td>
-            <td>Ruční kontrola</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th><strong>Oblast</strong></th>
+              <th><strong>Výkonnostní ukazatele</strong></th>
+              <th><strong>Přijatelná úroveň kvality</strong></th>
+              <th><strong>Způsob kontroly</strong></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Testování</td>
+              <td>Kód odevzdaný na&nbsp;základě objednávky musí být z&nbsp;větší části pokrytý automatickými testy. Zdrojový kód je&nbsp;verzovaný ve&nbsp;veřejném repository a&nbsp;zůstává ve&nbsp;vlastnictví státu.</td>
+              <td>Aspoň 90% pokrytí testy</td>
+              <td>Kombinace ruční kontroly a&nbsp;automatických testů</td>
+            </tr>
+            <tr>
+              <td>Vývojářské standardy</td>
+              <td><a href="https://frontend.18f.gov/">GSA 18F Front-End Guide</a></td>
+              <td>Žádná varování od&nbsp;linteru, žádná varování od&nbsp;překladače</td>
+              <td>Kombinace ruční kontroly a&nbsp;automatických testů</td>
+            </tr>
+            <tr>
+              <td>Přístupnost</td>
+              <td>Web Content Accessibility Guidelines 2.1 AA&nbsp;</td>
+              <td>Žádné chyby nahlášené automatickým skenerem, žádné chyby nalezené ruční kontrolou</td>
+              <td><a href="https://github.com/pa11y/pa11y">Pa11y</a></td>
+            </tr>
+            <tr>
+              <td>Nasazení</td>
+              <td>Kód se&nbsp;musí úspěšně přeložit a&nbsp;nasadit do&nbsp;testovacího prostředí</td>
+              <td>Úspěšný build jedním příkazem</td>
+              <td>Kombinace ruční kontroly a&nbsp;automatických testů</td>
+            </tr>
+            <tr>
+              <td>Dokumentace</td>
+              <td>Existuje seznam všech závislostí a&nbsp;jejich licencí. Hlavní funkce zdrojového kódu a&nbsp;softwaru jsou dokumentované. Zdrojový kód je&nbsp;komentovaný způsobem, který umožňuje automatické generování dokumentace (například <a href="http://usejsdoc.org/">JSDoc</a>). Existuje systémový diagram celého systému.</td>
+              <td>Kombinace ruční kontroly a&nbsp;automatických testů, pokud jsou k&nbsp;dispozici</td>
+              <td>Ruční kontrola</td>
+            </tr>
+            <tr>
+              <td>Bezpečnost</td>
+              <td><a href="https://www.owasp.org/images/6/67/OWASPApplicationSecurityVerificationStandard3.0.pdf">OWASP Application Security Verification Standard 3.0</a></td>
+              <td>V&nbsp;kódu nesmí být žádné statické nebo dynamické bezpečnostní problémy střední a&nbsp;vyšší úrovně</td>
+              <td>Čisté výstupy ze&nbsp;statického SaaS testu (například <a href="https://docs.npmjs.com/cli/audit">npm audit</a>) a&nbsp;<a href="https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project">OWASP ZAP</a>, falešně pozitivní výsledky jsou uvedené v&nbsp;dokumentaci</td>
+            </tr>
+            <tr>
+              <td>Analýza uživatelských požadavků</td>
+              <td>Analýza požadavků a&nbsp;testování použitelnosti musí probíhat pravidelně během celého vývoje, nejen na&nbsp;jeho začátku.</td>
+              <td>Výstupy z&nbsp;testování použitelnosti a&nbsp;dalších analýz jsou k&nbsp;dispozici na&nbsp;konci každého vhodného sprintu, podle plánu dodavatele</td>
+              <td>Ruční kontrola</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
     <script type="text/javascript" src="./scripts/bundle.js" integrity="sha256-94BI1exPrtnG+jz80Ixb5Z+GXH+Ur2yTrAXzYfvlm+k="></script>
     <a id="chapter-end"></a>
