@@ -29,17 +29,17 @@
     "IT projekty"
   ],
   "slug": "jaquith-snizovani-rizika-technologickych-projektu-2019-f4a51b",
-  "revision": "45ab263",
+  "revision": "f45e18a",
   "generatedAt": {
-    "date": "Sun Nov 17 2019 11:19:06 GMT+0100 (Central European Standard Time)",
-    "unix": 1573985946923
+    "date": "Tue Nov 19 2019 18:05:49 GMT+0100 (Central European Standard Time)",
+    "unix": 1574183149672
   },
   "documents": [
     {
       "title": "Úvod",
       "file": "01-uvod.html",
       "words": 424,
-      "chars": 2976,
+      "chars": 2968,
       "isChapter": true,
       "order": 0,
       "prev": null,
@@ -58,7 +58,7 @@
       "title": "Základní principy návrhu moderního softwaru",
       "file": "02-zakladni-principy.html",
       "words": 2212,
-      "chars": 15565,
+      "chars": 15601,
       "isChapter": true,
       "order": 1,
       "prev": "01-uvod.html",
@@ -120,7 +120,7 @@
       "title": "Rady pro rozpočtování a řízení technických projektů",
       "file": "03-rady.html",
       "words": 5152,
-      "chars": 35948,
+      "chars": 35828,
       "isChapter": true,
       "order": 2,
       "prev": "02-zakladni-principy.html",
@@ -448,7 +448,7 @@
       "title": "Dodatek A: Na co se ptát",
       "file": "dodatek-a.html",
       "words": 652,
-      "chars": 4607,
+      "chars": 4590,
       "isChapter": true,
       "order": 3,
       "prev": "03-rady.html",
@@ -463,8 +463,8 @@
             {
               "index": 1,
               "level": 2,
-              "name": "Jaké jsou cíle projektu? Jaké výsledky jsou prioritní?",
-              "id": "jaké-jsou-cíle-projektu-jaké-výsledky-jsou-prioritní",
+              "name": "Jaké jsou cíle projektu?",
+              "id": "jaké-jsou-cíle-projektu",
               "children": []
             },
             {
@@ -477,8 +477,8 @@
             {
               "index": 3,
               "level": 2,
-              "name": "Pokud vybraný dodavatel nesplní představy, jak obtížné bude smlouvu ukončit? Jak dlouho bude trvat jeho nahrazení jiným dodavatelem? Kolik to asi bude stát?",
-              "id": "pokud-vybraný-dodavatel-nesplní-představy-jak-obtížné-bude-smlouvu-ukončit-jak-dlouho-bude-trvat-jeho-nahrazení-jiným-dodavatelem-kolik-to-nbsp-asi-bude-stát",
+              "name": "Pokud vybraný dodavatel nesplní představy, jak obtížné bude smlouvu ukončit?",
+              "id": "pokud-vybraný-dodavatel-nesplní-představy-jak-obtížné-bude-smlouvu-ukončit",
               "children": []
             },
             {
@@ -540,8 +540,8 @@
             {
               "index": 12,
               "level": 2,
-              "name": "Bude projekt obsahovat automatické testy? Integrační testy? Automatické nasazení? Bezpečnostní testy?",
-              "id": "bude-projekt-obsahovat-automatické-testy-integrační-testy-automatické-nasazení-bezpečnostní-testy",
+              "name": "Bude projekt obsahovat automatické testy?",
+              "id": "bude-projekt-obsahovat-automatické-testy",
               "children": []
             },
             {
@@ -572,8 +572,8 @@
     {
       "title": "Dodatek B: Ukázkový plán posuzování kvality",
       "file": "dodatek-b.html",
-      "words": 6,
-      "chars": 43,
+      "words": 156,
+      "chars": 1087,
       "isChapter": true,
       "order": 4,
       "prev": "dodatek-a.html",
@@ -617,12 +617,12 @@
   ],
   "totals": {
     "all": {
-      "words": 8501,
-      "chars": 59514
+      "words": 8651,
+      "chars": 60449
     },
     "chapters": {
-      "words": 8446,
-      "chars": 59139
+      "words": 8596,
+      "chars": 60074
     }
   }
 }
