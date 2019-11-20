@@ -29,10 +29,10 @@
     "IT projekty"
   ],
   "slug": "jaquith-snizovani-rizika-technologickych-projektu-2019-f4a51b",
-  "revision": "f45e18a",
+  "revision": "8edffc6",
   "generatedAt": {
-    "date": "Tue Nov 19 2019 18:05:49 GMT+0100 (Central European Standard Time)",
-    "unix": 1574183149672
+    "date": "Wed Nov 20 2019 12:14:16 GMT+0100 (Central European Standard Time)",
+    "unix": 1574248456497
   },
   "documents": [
     {
@@ -58,7 +58,7 @@
       "title": "Základní principy návrhu moderního softwaru",
       "file": "02-zakladni-principy.html",
       "words": 2212,
-      "chars": 15601,
+      "chars": 15499,
       "isChapter": true,
       "order": 1,
       "prev": "01-uvod.html",
@@ -618,11 +618,11 @@
   "totals": {
     "all": {
       "words": 8651,
-      "chars": 60449
+      "chars": 60347
     },
     "chapters": {
       "words": 8596,
-      "chars": 60074
+      "chars": 59972
     }
   }
 }
