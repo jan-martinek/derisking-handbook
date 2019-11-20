@@ -151,5 +151,4 @@ Veškerá technická práce pak má za úkol pokrýt nějakou user story.
 Podobně [studie společnosti HP](https://softwaretestinggenius.com/docs/4aa5-7619.pdf) z roku 2015 zjistila, že „drtivá většina oslovených organizací dnes primárně používá agilní metody vývoje“.
 Popisovaný proces tedy není nijak výjimečný.
 
-[^devops]: Další informace o DevOps například v článku amerického ministerstva obrany [Is Your Development Environment Holding You Back?
-A DIB Guid for the Acquisition Community](https://media.defense.gov/2018/Oct/09/2002049592/-1/-1/0/DIB_DEVELOPMENT_ENVIRONMENT_2018.10.05.PDF).
+[^devops]: Další informace o DevOps například v článku amerického ministerstva obrany [Is Your Development Environment Holding You Back? A DIB Guid for the Acquisition Community](https://media.defense.gov/2018/Oct/09/2002049592/-1/-1/0/DIB_DEVELOPMENT_ENVIRONMENT_2018.10.05.PDF).
