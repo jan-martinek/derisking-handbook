@@ -53792,13 +53792,13 @@ function (_React$Component) {
       if (ro.length === 0) return null;
       var pos = this.props.position;
       var chapter = pos.chapterNum !== null ? ro[pos.chapterNum] : null;
-      var thisChapter = pos.chapterNum !== null ? this.props.sequentialPosition.chapterNum === chapter.order : false;
+      var thisChapter = pos.chapterNum !== null ? this.props.sequentialPosition.chapterNum === pos.chapterNum : false;
       var totalWords = ro[ro.length - 1].totalWords;
       return _react["default"].createElement("nav", null, _react["default"].createElement(CatchWord, {
         actions: {
           showToc: this.showToc
         }
-      }), chapter && _react["default"].createElement("div", null, _react["default"].createElement(NavBar, {
+      }), chapter && _react["default"].createElement(_react["default"].Fragment, null, _react["default"].createElement(NavBar, {
         readingOrder: ro,
         chapter: chapter,
         scrollRatio: this.props.scrollRatio,
@@ -53838,50 +53838,81 @@ Navigation.propTypes = {
   addPeek: _propTypes["default"].func.isRequired
 };
 
-function SeqReturn(props) {
-  var link = props.targetChapter ? "./".concat(props.targetChapter.file, "#idea").concat(props.idea) : null;
+var SeqReturn =
+/*#__PURE__*/
+function (_React$Component2) {
+  _inherits(SeqReturn, _React$Component2);
 
-  var resetPosition = function resetPosition(e) {
-    e.preventDefault();
-    props.setPosition(true);
-  };
+  function SeqReturn(props) {
+    var _this2;
 
-  var highlightPosition = function highlightPosition() {
-    highlightIdea(props.idea);
-  };
+    _classCallCheck(this, SeqReturn);
 
-  if (props.idea === null) {
-    return _react["default"].createElement("div", {
-      className: "seq-return-wrapper"
-    }, _react["default"].createElement("div", {
-      className: "seq-return"
-    }, _react["default"].createElement("p", null, _react["default"].createElement("span", null, "This book remembers where you stopped reading. You can view Table of Contents anytime by clicking the bottom bar where the next \u201Cpage\u201D is visible.")), _react["default"].createElement("span", {
-      className: "seq-buttons"
-    }, _react["default"].createElement("a", {
-      href: props.startLink
-    }, _react["default"].createElement("b", null, "Start reading")))));
+    _this2 = _possibleConstructorReturn(this, _getPrototypeOf(SeqReturn).call(this, props));
+    _this2.resetPosition = _this2.resetPosition.bind(_assertThisInitialized(_this2));
+    _this2.highlightPosition = _this2.highlightPosition.bind(_assertThisInitialized(_this2));
+    _this2.firstTime = _this2.firstTime.bind(_assertThisInitialized(_this2));
+    _this2.nthTime = _this2.nthTime.bind(_assertThisInitialized(_this2));
+    return _this2;
   }
 
-  var readingPosition = !props.isChapter || !props.thisChapter ? _react["default"].createElement("p", null, "You read up to ", _react["default"].createElement("a", {
-    href: link
-  }, "sentence #", props.idea), " in chapter", ' ', _react["default"].createElement("b", null, props.targetChapter.title), ".") : _react["default"].createElement("p", null, "You read up to sentence", ' ', _react["default"].createElement("a", {
-    href: link,
-    onClick: highlightPosition
-  }, "#", props.idea, " in this chapter"), ".");
-  return (!props.sequential || !props.isChapter) && _react["default"].createElement("div", {
-    className: "seq-return-wrapper"
-  }, _react["default"].createElement("div", {
-    className: "seq-return"
-  }, readingPosition, _react["default"].createElement("span", {
-    className: "seq-buttons"
-  }, props.isChapter && _react["default"].createElement("a", {
-    href: "#",
-    onClick: resetPosition
-  }, "Continue from\xA0here"), _react["default"].createElement("a", {
-    href: link,
-    onClick: highlightPosition
-  }, _react["default"].createElement("b", null, props.isChapter ? 'Return back' : 'Continue reading')))));
-}
+  _createClass(SeqReturn, [{
+    key: "resetPosition",
+    value: function resetPosition(e) {
+      e.preventDefault();
+      this.props.setPosition(true);
+    }
+  }, {
+    key: "highlightPosition",
+    value: function highlightPosition() {
+      highlightIdea(this.props.idea);
+    }
+  }, {
+    key: "firstTime",
+    value: function firstTime() {
+      return _react["default"].createElement(_react["default"].Fragment, null, _react["default"].createElement("p", null, "This book remembers where you stopped reading. You can view Table of Contents anytime by clicking the bottom bar where the next \u201Cpage\u201D is visible."), _react["default"].createElement("div", {
+        className: "seq-buttons"
+      }, _react["default"].createElement("a", {
+        href: this.props.startLink
+      }, _react["default"].createElement("b", null, "Start reading"))));
+    }
+  }, {
+    key: "nthTime",
+    value: function nthTime() {
+      var _this3 = this;
+
+      var link = this.props.targetChapter ? "./".concat(this.props.targetChapter.file, "#idea").concat(this.props.idea) : null;
+      var readingPosition = !this.props.isChapter || !this.props.thisChapter ? _react["default"].createElement("p", null, "You read up to ", _react["default"].createElement("a", {
+        href: link
+      }, "sentence #", this.props.idea), " in chapter", ' ', _react["default"].createElement("b", null, this.props.targetChapter.title), ".") : _react["default"].createElement("p", null, "You read up to sentence", ' ', _react["default"].createElement("a", {
+        href: link,
+        onClick: this.highlightPosition
+      }, "#", this.props.idea, " in this chapter"), ".");
+      return (!this.props.sequential || !this.props.isChapter) && _react["default"].createElement(_react["default"].Fragment, null, readingPosition, _react["default"].createElement("div", {
+        className: "seq-buttons"
+      }, this.props.isChapter && _react["default"].createElement("a", {
+        href: "#",
+        onClick: this.resetPosition
+      }, "Continue from\xA0here"), _react["default"].createElement("a", {
+        href: link,
+        onClick: function onClick() {
+          _this3.props.thisChapter ? _this3.highlightPosition : null;
+        }
+      }, _react["default"].createElement("b", null, this.props.isChapter ? 'Return back' : 'Continue reading'))));
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return _react["default"].createElement("div", {
+        className: "seq-return-wrapper"
+      }, _react["default"].createElement("div", {
+        className: "seq-return"
+      }, this.props.idea === null ? this.firstTime() : this.nthTime()));
+    }
+  }]);
+
+  return SeqReturn;
+}(_react["default"].Component);
 
 SeqReturn.propTypes = {
   idea: _propTypes["default"].number,
@@ -53889,22 +53920,23 @@ SeqReturn.propTypes = {
   thisChapter: _propTypes["default"].bool.isRequired,
   isChapter: _propTypes["default"].bool.isRequired,
   setPosition: _propTypes["default"].func.isRequired,
+  sequential: _propTypes["default"].bool.isRequired,
   startLink: _propTypes["default"].string.isRequired
 };
 
 var CatchWord =
 /*#__PURE__*/
-function (_React$Component2) {
-  _inherits(CatchWord, _React$Component2);
+function (_React$Component3) {
+  _inherits(CatchWord, _React$Component3);
 
   function CatchWord(props) {
-    var _this2;
+    var _this4;
 
     _classCallCheck(this, CatchWord);
 
-    _this2 = _possibleConstructorReturn(this, _getPrototypeOf(CatchWord).call(this, props));
-    _this2.handleActions = _this2.handleActions.bind(_assertThisInitialized(_this2));
-    return _this2;
+    _this4 = _possibleConstructorReturn(this, _getPrototypeOf(CatchWord).call(this, props));
+    _this4.handleActions = _this4.handleActions.bind(_assertThisInitialized(_this4));
+    return _this4;
   }
 
   _createClass(CatchWord, [{
